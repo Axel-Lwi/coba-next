@@ -1,0 +1,15 @@
+.error {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  color : white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  &__image{
+    width: 40vh;
+    aspect-ratio: 1/1;
+  }
+}
+
